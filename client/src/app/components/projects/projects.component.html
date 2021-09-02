@@ -1,0 +1,29 @@
+<div class="main">
+    <section class="description" >
+        <h3>
+            Ideas with impact
+        </h3>
+        <p>
+            Here, you can post and find ideas for technologies—websites, apps, and more—that real people will use. If there is a technology that you wish existed, post the idea here. And if you want to develop a solution based on an idea, you can create or join a project based on that idea.
+        </p>
+    </section>
+
+    <div class="tools">
+        <div class="left-tool">
+            <h1>Ideas</h1>
+            <button mat-button [matMenuTriggerFor]="menu" class="menu">Menu</button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+            </mat-menu>
+              
+        </div>
+
+        <div class="right-tool">
+            <button mat-stroked-button class="login-btn">+ New Idea</button>
+              
+        </div>
+    </div>
+    
+</div>
+

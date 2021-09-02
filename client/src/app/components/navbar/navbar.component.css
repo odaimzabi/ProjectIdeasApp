@@ -1,0 +1,30 @@
+.example-spacer {
+    flex: 1 1 auto;
+    margin-left:1rem;
+    margin-right:2rem;
+  }
+
+  .nav{
+      background-color: #212529;
+      color:#fff;
+      
+  }
+  .login-btn{
+      cursor:pointer;
+      border-color:#198754;
+      color:#198754;
+      margin-left:0.75rem;
+      border:2px solid;
+      font-weight: 400;
+      padding:.355rem .85rem;
+      font-size:1rem;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .example-icon{
+      color:#fff;
+  }
+
+  .search{
+    color:#b1beca;
+  }
